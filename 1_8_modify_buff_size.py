@@ -27,7 +27,7 @@ def modify_buff_size():
 
     bufsize = sock.getsockopt(socket.SOL_SOCKET, socket.SO_SNDBUF)
 
-    print (" buffer size [After]:%d" %bufsize)
+    print ("buffer size [After]:%d" %bufsize)
 
 if __name__ == '__main__':
     modify_buff_size()
