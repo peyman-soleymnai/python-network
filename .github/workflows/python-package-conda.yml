@@ -3,10 +3,10 @@ name: CI Pipeline NEW
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   build-and-test:
@@ -31,3 +31,5 @@ jobs:
 
 
 
+
+      
